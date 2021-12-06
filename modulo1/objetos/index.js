@@ -75,3 +75,29 @@
 //3.
 
 let carrinho= []
+
+
+const fruta1 = {
+    nome:"Limão",
+    disponibilidade: true
+}
+
+const fruta2 = {
+    nome:"Laranja",
+    disponibilidade: true
+}
+
+const fruta3 = {
+    nome:"Melancia",
+    disponibilidade: true
+}
+
+function frutas() {
+    carrinho.push((fruta1))
+    carrinho.push((fruta2))
+    carrinho.push((fruta3))
+    
+}
+
+console.log(carrinho)
+frutas(carrinho)
