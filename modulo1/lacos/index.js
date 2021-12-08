@@ -65,5 +65,18 @@ const arrayOriginal = [10, 68, 56, 28, 49]
 // imprimePares(arrayOriginal)
 
 //d)
+// let novoArray = []
+// function colocaIndex(array){
+//    for(i = 0; i<arrayOriginal.length; i++){
+//        novoArray.push(`O elemento do índex ${i} é ${arrayOriginal[i]}`)
+//    } 
+//    console.log(novoArray)
+// }
+// colocaIndex(arrayOriginal)
 
+//e)
+
+// const valorMaximo = arrayOriginal[1]
+// const valorMínimo = arrayOriginal[0]
+// console.log(`O maior número é ${valorMaximo} e o menor é ${valorMínimo}`)
 
