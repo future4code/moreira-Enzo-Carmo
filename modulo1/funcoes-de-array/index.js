@@ -100,3 +100,21 @@ const produtos = [
 
 //d)
 
+// const produtosYpe = produtos.filter((item, indice, array) =>{
+//     return item.nome.includes("Ypê")
+// })
+// console.log(produtosYpe)
+
+
+//e)
+
+
+// const produtosYpe = produtos.filter((item, indice, array) =>{
+//     return item.nome.includes("Ypê")
+// })
+
+// const compreProdutos = produtosYpe.map((item, indice, array) =>{
+//     return `Compre ${item.nome} por ${item.preco}`
+// })
+
+// console.log(compreProdutos)
