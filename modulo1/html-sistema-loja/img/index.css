@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+
+p{
+    color:slateblue;
+}
+
+div {
+    padding: 10px;
+}
+
+body{
+    background-color: gray;
+}
+
+table{
+    background-color: purple;
+}
+
+a{
+    display: block;
+    color: green;
+}
