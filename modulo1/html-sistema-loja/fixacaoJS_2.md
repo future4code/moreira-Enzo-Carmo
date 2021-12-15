@@ -1,4 +1,4 @@
-  let precoMaca
+  ```let precoMaca
 if(quantidade < 12){
   precoMaca = 1.30
 } else{
@@ -6,4 +6,4 @@ if(quantidade < 12){
   
 } 
 return precoMaca * quantidade
-}
+```}
