@@ -1,0 +1,16 @@
+a{
+    display:block;
+    color:green;
+    background-color: grey;
+}
+
+h2{
+    color: yellow;
+    background-color: purple;
+}
+
+ul{
+    padding: 10px;
+    color: red;
+    background-color: gray;
+}
