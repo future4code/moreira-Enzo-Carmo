@@ -1,0 +1,15 @@
+/*TÍTULO */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:grid;
+    background-color: mediumvioletred;
+    grid-template-columns: 1fr 80px;
+    height: 40px;
+    align-items: center;
+    padding: 0px 10px;
+}
+
