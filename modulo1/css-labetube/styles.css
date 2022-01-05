@@ -30,8 +30,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid;
-    border-radius: 2%;
+    width: 80%;
+    height: 50%;
 }
 
 .image{
@@ -61,3 +61,14 @@ p{
     font-size: large;
     font-weight: bold
 }
+
+@media screen and (max-device-width: 600px) {
+    .container-dos-videos {
+      grid-template-columns: 1fr;
+      width: 200px;
+      align-items: center;
+      justify-content: center;
+      margin: 80px;
+    }
+
+  }
