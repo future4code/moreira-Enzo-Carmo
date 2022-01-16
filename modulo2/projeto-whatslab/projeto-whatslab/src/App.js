@@ -1,5 +1,4 @@
 import React from 'react'
-import AppMessage from'./components/AppMessage'
 import Header from './components/Header'
 import MainContent from './components/MainContent';
 import styled from 'styled-components'
@@ -17,17 +16,12 @@ flex-direction: column;
 
 `
 
-const AppMessageContainer = styled.input`
-
-`
 
 function App() {
   return (
     <AppContainer>
       <Header />
       <MainContent />
-      <AppMessage />
-
     </AppContainer>
   );
 }
