@@ -31,7 +31,7 @@ export default class App extends React.Component {
       });
   };
 
-  createPlaylsit = () => {
+  createPlaylist = () => {
     const body = {
       name: this.state.playlistInput
     };
@@ -66,7 +66,7 @@ export default class App extends React.Component {
           onChange={this. PlayListOnChangeText}
           placeholder="Playlist"
         />
-        <button onClick={this.createPlaylsit}>Enviar</button>
+        <button onClick={this.createPlaylist}>Enviar</button>
         {playlistComponents}
       </div>
     );
