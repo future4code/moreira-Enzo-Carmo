@@ -1,10 +1,11 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
+import RoutesApp from './routes';
 
 function App() {
   return (
     <div>
-      <p>hello world</p>
+      <RoutesApp />
     </div>
   );
 }
