@@ -1,0 +1,35 @@
+POST http://localhost:3003/user
+Content-Type: application/json
+
+{
+
+    "name": "Enzo Pasche",
+    "nickname": "flame",
+    "email": "enzo@pasche.com"
+
+}
+
+
+###
+GET http://localhost:3003/user/1
+
+
+
+###
+PUT http://localhost:3003/user/edit/1
+Content-Type: application/json
+
+{
+
+    "name": "Pasche Enzo",
+    "nickname": "pascheflame",
+    "email": "pascheenzo@dev.com"
+
+}
+
+###
+POST http://localhost:3003/TodoListTask/task
+
+
+###
+GET http://localhost:3003/TodoListTask/task/1
