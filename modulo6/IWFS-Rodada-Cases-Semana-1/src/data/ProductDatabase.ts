@@ -8,12 +8,14 @@ export class ProductDatabase extends BaseDatabase implements IProductData {
 
     findById = async (id: number):Promise<SignUpOutputDTO>=>{
         try {
-            const product = await this.connection.raw(`
+            const [product] = await this.connection.raw(`
             SELECT * FROM products 
             WHERE id='${id}'
             `)
 
-        return product[0][0];
+            
+
+        return product;
 
         } catch (error: any) {
           throw new Error(error.sqlMessage || error.message);

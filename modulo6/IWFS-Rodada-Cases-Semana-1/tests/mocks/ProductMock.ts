@@ -1,7 +1,7 @@
-import { Product } from "../../model/Products";
+import { Product } from "../../src/model/Products"
 
 export const productMock = new Product(
-    2,
+    6,
     "test",
     []
 ) 

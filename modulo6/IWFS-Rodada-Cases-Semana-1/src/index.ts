@@ -12,5 +12,5 @@ const productController = new ProductContoller(
     )
 )
 
-app.post("/", productController.create)
-app.get("/products", productController.findProduct)
+app.post("/products", productController.create)
+app.get("/products/search/", productController.findProduct)

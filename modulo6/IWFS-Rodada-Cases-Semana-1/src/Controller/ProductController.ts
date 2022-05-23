@@ -37,10 +37,9 @@ export class ProductContoller{
 
     findProduct = async (req:Request, res:Response):Promise< any >=>{
         try {
-            const id = req.query.id
-            const name = req.query.name
-            const tag = req.query.tag
-
+            const id = Number(req.query.id)
+            const name = req.query.name as string
+            const tag = req.query.tag as string
             const result = await this.productBusiness.findProduct(id, name, tag)
 
             return res.status(200).send(result)
@@ -49,7 +48,7 @@ export class ProductContoller{
             if (error instanceof Error) {
                 return res.status(400).send(error.message)
             }
-            res.status(500).send("Erro na busca")
+            res.status(500).send("Search error.")
         }
     }
 } 

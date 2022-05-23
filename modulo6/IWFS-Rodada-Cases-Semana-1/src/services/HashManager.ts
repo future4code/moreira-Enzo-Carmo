@@ -14,4 +14,4 @@ export class HashManager {
   public compare = async (text: string, hash: string): Promise<boolean> => {
     return bcrypt.compare(text, hash)
   }
-} 
+}
